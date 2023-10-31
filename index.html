@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalletWizard</title>
+</head>
+<body>
+    <div class="container">
+       
+        <form>
+            <label for="text">Choose Expense Amount:</label>
+            <input type="number"  id="amount">
+            <label for="text">Description:</label>
+            <input type="text"  id="description">
+            <label for="text">Choose a catagory:</label>
+            <select name="" id="exp_catagory">
+                <option value="food">Food</option>
+                <option value="cloth">Cloths</option>
+                <option value="fuel">Fuel</option>
+                <option value="medicine">Medicine</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="grocery">Grocery</option>
+                
+            </select>
+            <button id="btn">Add Expense:</button>
+            <div id="ExpenseList"></div>
+
+
+
+              
+            
+
+            
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
